@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Shopping Portal Test</th></tr>
+<tr><td><a href="#t0">E2ETests</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">219,021</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">LoginTests</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">291,266</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num attn">1</th><th class="num attn">2</th><th class="num">510,287</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Shopping Portal Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E2ETests &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">TestCases.EndToEndTest</td><td><a href="#m0">submitMultiProductOrder</a></td><td rowspan="1">1765808687728</td><td rowspan="1">31098</td></tr><tr><th colspan="4">E2ETests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestCases.EndToEndTest</td><td><a href="#m1">multiProductNonLogin</a></td><td rowspan="1">1765808650683</td><td rowspan="1">37029</td></tr><tr class="passedeven"><td><a href="#m2">submitMultiProductOrder</a></td><td rowspan="1">1765808718843</td><td rowspan="1">150713</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">LoginTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestCases.LoginTest</td><td><a href="#m3">signUpExisitngUser</a></td><td rowspan="1">1765808988062</td><td rowspan="1">8063</td></tr><tr class="failedeven"><td><a href="#m4">signUpNewUser</a></td><td rowspan="1">1765809133306</td><td rowspan="1">28012</td></tr><tr><th colspan="4">LoginTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">TestCases.LoginTest</td><td><a href="#m5">signInInvalidData</a></td><td rowspan="2">1765808870325</td><td rowspan="2">9064</td></tr><tr class="passedeven"><td><a href="#m6">signInInvalidData</a></td></tr><tr class="passedeven"><td><a href="#m7">signInValidData</a></td><td rowspan="2">1765808923770</td><td rowspan="2">16214</td></tr><tr class="passedeven"><td><a href="#m8">signInValidData</a></td></tr><tr class="passedeven"><td><a href="#m9">signUpExisitngUser</a></td><td rowspan="1">1765808939984</td><td rowspan="1">48078</td></tr><tr class="passedeven"><td><a href="#m10">signUpNewUser</a></td><td rowspan="1">1765808997656</td><td rowspan="1">135650</td></tr></tbody>
+</table>
+<h2>E2ETests</h2><h3 id="m0">TestCases.EndToEndTest#submitMultiProductOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, prod2=Men Tshirt, prod1=Blue Top, nameOnCard=Dev Test, expYear=2028, userName=dev@abc.com, cardNumber=8678-9567-0945-3489}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;modal-content&apos;] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\DEVASH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53527}, goog:processID: 20616, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53527/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6994bd283723361f92f172c4e6c0c436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.HomePage.addProdToCart(HomePage.java:115)
+	at TestCases.EndToEndTest.submitMultiProductOrder(EndToEndTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCases.EndToEndTest#multiProductNonLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Madame Top For Women, prod2=Stylish Dress, prod1=Sleeveless Dress}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCases.EndToEndTest#submitMultiProductOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, prod2=Men Tshirt, prod1=Blue Top, nameOnCard=Dev Test, expYear=2028, userName=dev@abc.com, cardNumber=8678-9567-0945-3489}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginTests</h2><h3 id="m3">TestCases.LoginTest#signUpExisitngUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=jhn@rfg.com, username=John Test}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;signup&apos;]/following-sibling::p&quot;}
+  (Session info: chrome=143.0.7499.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3d2a456278b85b7671efc314fd5c7ac, findElement {using=xpath, value=//input[@value=&apos;signup&apos;]/following-sibling::p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\DEVASH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50074}, goog:processID: 17656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50074/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d2a456278b85b7671efc314fd5c7ac
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+	at PageObjects.LoginPage.getExisitngSignUpErrorMsg(LoginPage.java:97)
+	at TestCases.LoginTest.signUpExisitngUser(LoginTest.java:187)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCases.LoginTest#signUpNewUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=2005, city=Plano, zipcode=435657, firstName=Linda, password=Linda@234, mobileNum=9845986056, month=November, company=TestComp, state=Texas, day=6, email=ldn@hgj.com, username=Linda Test}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;login-form&apos;]/h2/b (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\DEVASH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62485}, goog:processID: 23928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4b00ef2222913a26a7c3b6c59add51e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.SignUpPage.waitForTitleMsg(SignUpPage.java:104)
+	at TestCases.LoginTest.signUpNewUser(LoginTest.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCases.LoginTest#signInInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Abc12345, email=adg@345.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCases.LoginTest#signInInvalidData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Pqr56748, email=fdg@768.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCases.LoginTest#signInValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=John@234, email=jhn@rfg.com, username=John Test}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCases.LoginTest#signInValidData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Dev@1996, email=dev@abc.com, username=Dev Test}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCases.LoginTest#signUpExisitngUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{email=dev@abc.com, username=Dev Test}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCases.LoginTest#signUpNewUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=1980, city=Plano, zipcode=435657, firstName=John, password=John@234, mobileNum=9845986056, month=June, company=TestComp, state=Texas, day=13, email=jhn@gfu.com, username=John Test}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

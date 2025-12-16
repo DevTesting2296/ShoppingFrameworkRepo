@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Shopping Portal Test">
+	
+  <listeners>
+	  <listener class-name="TestComponents.ListenerTest"></listener>
+  </listeners>	
+	
+  <test name="E2ETests">
+	  <classes>
+		  <class name="TestCases.EndToEndTest"></class>
+	  </classes>	  
+  </test> <!-- Test -->
+  
+  <test name="LoginTests">
+	  <classes>
+		  <class name="TestCases.LoginTest"></class>
+	  </classes>	  
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

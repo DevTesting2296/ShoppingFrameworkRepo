@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Shopping_Portal_Test" class="navigator-link">
+              <span class="suite-name border-failed">Shopping Portal Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Shopping_Portal_Test" class="navigator-link ">
+                    <span>C:\Users\Devashish Joshi\eclipse-workspace\ShoppingPortalFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Shopping_Portal_Test" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Shopping_Portal_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Shopping_Portal_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Shopping_Portal_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Shopping_Portal_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Shopping_Portal_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 2 failed,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Shopping_Portal_Test" class="hide-methods failed suite-Shopping_Portal_Test"> (hide)</a> <!-- hide-methods failed suite-Shopping_Portal_Test -->
+                      <a href="#" panel-name="suite-Shopping_Portal_Test" class="show-methods failed suite-Shopping_Portal_Test"> (show)</a> <!-- show-methods failed suite-Shopping_Portal_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Shopping_Portal_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signUpExisitngUser({email=jhn@rfg.com, username=John Test})">signUpExisitngUser({email=jhn@rfg.com, username=John Test})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signUpNewUser({lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=20...)">signUpNewUser({lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=20...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Shopping_Portal_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Shopping_Portal_Test" class="hide-methods skipped suite-Shopping_Portal_Test"> (hide)</a> <!-- hide-methods skipped suite-Shopping_Portal_Test -->
+                      <a href="#" panel-name="suite-Shopping_Portal_Test" class="show-methods skipped suite-Shopping_Portal_Test"> (show)</a> <!-- show-methods skipped suite-Shopping_Portal_Test -->
+                    </span>
+                    <div class="method-list-content skipped suite-Shopping_Portal_Test">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.EndToEndTest" class="method navigator-link" hash-for-method="submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)">submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Shopping_Portal_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Shopping_Portal_Test" class="hide-methods passed suite-Shopping_Portal_Test"> (hide)</a> <!-- hide-methods passed suite-Shopping_Portal_Test -->
+                      <a href="#" panel-name="suite-Shopping_Portal_Test" class="show-methods passed suite-Shopping_Portal_Test"> (show)</a> <!-- show-methods passed suite-Shopping_Portal_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Shopping_Portal_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.EndToEndTest" class="method navigator-link" hash-for-method="multiProductNonLogin({cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Ma...)">multiProductNonLogin({cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Ma...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signInInvalidData({password=Abc12345, email=adg@345.com})">signInInvalidData({password=Abc12345, email=adg@345.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signInInvalidData({password=Pqr56748, email=fdg@768.com})">signInInvalidData({password=Pqr56748, email=fdg@768.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signInValidData({password=John@234, email=jhn@rfg.com, username=John Test})">signInValidData({password=John@234, email=jhn@rfg.com, username=John Test})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signInValidData({password=Dev@1996, email=dev@abc.com, username=Dev Test})">signInValidData({password=Dev@1996, email=dev@abc.com, username=Dev Test})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signUpExisitngUser({email=dev@abc.com, username=Dev Test})">signUpExisitngUser({email=dev@abc.com, username=Dev Test})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.LoginTest" class="method navigator-link" hash-for-method="signUpNewUser({lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=...)">signUpNewUser({lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Shopping_Portal_Test" title="TestCases.EndToEndTest" class="method navigator-link" hash-for-method="submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)">submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Shopping_Portal_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Shopping_Portal_Test" class="panel Shopping_Portal_Test">
+          <div class="suite-Shopping_Portal_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpExisitngUser({email=jhn@rfg.com, username=John Test})">
+                  </a> <!-- signUpExisitngUser({email=jhn@rfg.com, username=John Test}) -->
+                  <span class="method-name">signUpExisitngUser</span>
+                  <span class="parameters">({email=jhn@rfg.com, username=John Test})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos;signup&apos;]/following-sibling::p&quot;}
+  (Session info: chrome=143.0.7499.109)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3d2a456278b85b7671efc314fd5c7ac, findElement {using=xpath, value=//input[@value=&apos;signup&apos;]/following-sibling::p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\DEVASH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50074}, goog:processID: 17656, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50074/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3d2a456278b85b7671efc314fd5c7ac
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+	at PageObjects.LoginPage.getExisitngSignUpErrorMsg(LoginPage.java:97)
+	at TestCases.LoginTest.signUpExisitngUser(LoginTest.java:187)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpNewUser({lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=20...)">
+                  </a> <!-- signUpNewUser({lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=20...) -->
+                  <span class="method-name">signUpNewUser</span>
+                  <span class="parameters">({lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=2005, city=Plano, zipcode=435657, firstName=Linda, password=Linda@234, mobileNum=9845986056, month=November, company=TestComp, state=Texas, day=6, email=ldn@hgj.com, username=Linda Test})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;login-form&apos;]/h2/b (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\DEVASH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62485}, goog:processID: 23928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62485/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d4b00ef2222913a26a7c3b6c59add51e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.SignUpPage.waitForTitleMsg(SignUpPage.java:104)
+	at TestCases.LoginTest.signUpNewUser(LoginTest.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shopping_Portal_Test-class-failed -->
+          <div class="suite-Shopping_Portal_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.EndToEndTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)">
+                  </a> <!-- submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...) -->
+                  <span class="method-name">submitMultiProductOrder</span>
+                  <span class="parameters">({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, prod2=Men Tshirt, prod1=Blue Top, nameOnCard=Dev Test, expYear=2028, userName=dev@abc.com, cardNumber=8678-9567-0945-3489})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;modal-content&apos;] (tried for 3 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.109, chrome: {chromedriverVersion: 143.0.7499.42 (24bdc8c48a0c..., userDataDir: C:\Users\DEVASH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53527}, goog:processID: 20616, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53527/devtoo..., se:cdpVersion: 143.0.7499.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6994bd283723361f92f172c4e6c0c436
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at PageObjects.HomePage.addProdToCart(HomePage.java:115)
+	at TestCases.EndToEndTest.submitMultiProductOrder(EndToEndTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shopping_Portal_Test-class-skipped -->
+          <div class="suite-Shopping_Portal_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInInvalidData({password=Abc12345, email=adg@345.com})">
+                  </a> <!-- signInInvalidData({password=Abc12345, email=adg@345.com}) -->
+                  <span class="method-name">signInInvalidData</span>
+                  <span class="parameters">({password=Abc12345, email=adg@345.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInInvalidData({password=Pqr56748, email=fdg@768.com})">
+                  </a> <!-- signInInvalidData({password=Pqr56748, email=fdg@768.com}) -->
+                  <span class="method-name">signInInvalidData</span>
+                  <span class="parameters">({password=Pqr56748, email=fdg@768.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInValidData({password=John@234, email=jhn@rfg.com, username=John Test})">
+                  </a> <!-- signInValidData({password=John@234, email=jhn@rfg.com, username=John Test}) -->
+                  <span class="method-name">signInValidData</span>
+                  <span class="parameters">({password=John@234, email=jhn@rfg.com, username=John Test})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInValidData({password=Dev@1996, email=dev@abc.com, username=Dev Test})">
+                  </a> <!-- signInValidData({password=Dev@1996, email=dev@abc.com, username=Dev Test}) -->
+                  <span class="method-name">signInValidData</span>
+                  <span class="parameters">({password=Dev@1996, email=dev@abc.com, username=Dev Test})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpExisitngUser({email=dev@abc.com, username=Dev Test})">
+                  </a> <!-- signUpExisitngUser({email=dev@abc.com, username=Dev Test}) -->
+                  <span class="method-name">signUpExisitngUser</span>
+                  <span class="parameters">({email=dev@abc.com, username=Dev Test})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpNewUser({lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=...)">
+                  </a> <!-- signUpNewUser({lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=...) -->
+                  <span class="method-name">signUpNewUser</span>
+                  <span class="parameters">({lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=1980, city=Plano, zipcode=435657, firstName=John, password=John@234, mobileNum=9845986056, month=June, company=TestComp, state=Texas, day=13, email=jhn@gfu.com, username=John Test})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shopping_Portal_Test-class-passed -->
+          <div class="suite-Shopping_Portal_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.EndToEndTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiProductNonLogin({cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Ma...)">
+                  </a> <!-- multiProductNonLogin({cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Ma...) -->
+                  <span class="method-name">multiProductNonLogin</span>
+                  <span class="parameters">({cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Madame Top For Women, prod2=Stylish Dress, prod1=Sleeveless Dress})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)">
+                  </a> <!-- submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...) -->
+                  <span class="method-name">submitMultiProductOrder</span>
+                  <span class="parameters">({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, prod2=Men Tshirt, prod1=Blue Top, nameOnCard=Dev Test, expYear=2028, userName=dev@abc.com, cardNumber=8678-9567-0945-3489})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Shopping_Portal_Test-class-passed -->
+        </div> <!-- panel Shopping_Portal_Test -->
+        <div panel-name="test-xml-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Devashish Joshi\eclipse-workspace\ShoppingPortalFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Shopping Portal Test&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;TestComponents.ListenerTest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2ETests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.EndToEndTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2ETests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTests --&gt;
+&lt;/suite&gt; &lt;!-- Shopping Portal Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Shopping Portal Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">E2ETests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Shopping Portal Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Shopping Portal Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Shopping_Portal_Test');
+function tableData_Shopping_Portal_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'submitMultiProductOrder')
+data.setCell(0, 2, 'TestCases.EndToEndTest')
+data.setCell(0, 3, 150713);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signUpNewUser')
+data.setCell(1, 2, 'TestCases.LoginTest')
+data.setCell(1, 3, 135650);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signUpExisitngUser')
+data.setCell(2, 2, 'TestCases.LoginTest')
+data.setCell(2, 3, 48078);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'multiProductNonLogin')
+data.setCell(3, 2, 'TestCases.EndToEndTest')
+data.setCell(3, 3, 37029);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signInValidData')
+data.setCell(4, 2, 'TestCases.LoginTest')
+data.setCell(4, 3, 35393);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'submitMultiProductOrder')
+data.setCell(5, 2, 'TestCases.EndToEndTest')
+data.setCell(5, 3, 31098);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUpNewUser')
+data.setCell(6, 2, 'TestCases.LoginTest')
+data.setCell(6, 3, 28012);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signInValidData')
+data.setCell(7, 2, 'TestCases.LoginTest')
+data.setCell(7, 3, 16214);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signInInvalidData')
+data.setCell(8, 2, 'TestCases.LoginTest')
+data.setCell(8, 3, 9064);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signInInvalidData')
+data.setCell(9, 2, 'TestCases.LoginTest')
+data.setCell(9, 3, 8985);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signUpExisitngUser')
+data.setCell(10, 2, 'TestCases.LoginTest')
+data.setCell(10, 3, 8063);
+window.suiteTableData['Shopping_Portal_Test']= { tableData: data, tableDiv: 'times-div-Shopping_Portal_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Shopping_Portal_Test">
+              </div> <!-- times-div-Shopping_Portal_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Shopping Portal Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Shopping_Portal_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.EndToEndTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">multiProductNonLogin({cartModalMsg=Register / Login account to proceed on checkout., prod4=Frozen Tops For Kids, prod3=Ma...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)</span>
+                <span class="method-start">37045 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitMultiProductOrder({passWord=Dev@1996, cvcNumber=546, expMonth=06, prod4=Frozen Tops For Kids, prod3=Fancy Green Top, p...)</span>
+                <span class="method-start">68160 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signInInvalidData({password=Abc12345, email=adg@345.com})</span>
+                <span class="method-start">219642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInInvalidData({password=Pqr56748, email=fdg@768.com})</span>
+                <span class="method-start">228706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInValidData({password=Dev@1996, email=dev@abc.com, username=Dev Test})</span>
+                <span class="method-start">237694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInValidData({password=John@234, email=jhn@rfg.com, username=John Test})</span>
+                <span class="method-start">273087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpExisitngUser({email=dev@abc.com, username=Dev Test})</span>
+                <span class="method-start">289301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpExisitngUser({email=jhn@rfg.com, username=John Test})</span>
+                <span class="method-start">337379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpNewUser({lastName=Test, country=United States, address=2/13 , Central Park , M.D.Rd , NY, gender=male, year=...)</span>
+                <span class="method-start">346973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpNewUser({lastName=Test, country=Australia, address=2/13 , Central Park , M.D.Rd , NY, gender=female, year=20...)</span>
+                <span class="method-start">482623 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

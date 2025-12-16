@@ -1,0 +1,46 @@
+[
+
+{
+
+"gender" : "male" ,
+"username" : "John Test" ,
+"email" : "jhn@gfu.com" ,
+"password" : "John@234" ,
+"day" : "13" ,
+"month" : "June" ,
+"year" : "1980" ,
+"firstName" : "John" ,
+"lastName" : "Test" ,
+"company" : "TestComp" ,
+"address" : "2/13 , Central Park , M.D.Rd , NY" ,
+"country" : "United States" ,
+"state" : "Texas" ,
+"city" : "Plano" ,
+"zipcode" : "435657" ,
+"mobileNum" : "9845986056"
+
+} ,
+
+{
+
+"gender" : "female" ,
+"username" : "Linda Test" ,
+"email" : "ldn@hgj.com" ,
+"password" : "Linda@234" ,
+"day" : "6" ,
+"month" : "November" ,
+"year" : "2005" ,
+"firstName" : "Linda" ,
+"lastName" : "Test" ,
+"company" : "TestComp" ,
+"address" : "2/13 , Central Park , M.D.Rd , NY" ,
+"country" : "Australia" ,
+"state" : "Texas" ,
+"city" : "Plano" ,
+"zipcode" : "435657" ,
+"mobileNum" : "9845986056"
+
+}
+
+
+]

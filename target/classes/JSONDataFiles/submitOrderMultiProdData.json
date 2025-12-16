@@ -1,0 +1,18 @@
+[
+
+  {
+    "userName" : "dev@abc.com" ,
+    "passWord" : "Dev@1996" ,
+    "prod1" : "Blue Top" ,
+    "prod2" : "Men Tshirt" ,
+    "prod3" : "Fancy Green Top" ,
+    "prod4" : "Frozen Tops For Kids" ,
+    "nameOnCard" : "Dev Test" ,
+    "cardNumber" : "8678-9567-0945-3489" ,
+    "cvcNumber" : "546",
+    "expMonth" : "06",
+    "expYear" : "2028"
+    
+  }
+
+]
